@@ -1,4 +1,4 @@
-# Lab 03 Ouputs
+# Lab 03 Outputs
 
 Make sure you're inside the `labs/03` directory before running the commands below. `cd labs/03` if you're not.
 
