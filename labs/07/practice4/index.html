@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Practice 4</title>
+		<link rel="stylesheet" href="../styles/reset.css" />
+		<link rel="stylesheet" href="../styles/style.css" />
+	</head>
+	<body>
+		<div class="stack">
+			<a href="../">
+				<small>👈 click to go back</small>
+			</a>
+			<div class="box invert stack" style="--space: var(--s0)">
+				<h4>Practice 4</h4>
+				<form id="form" class="stack" style="--space: var(--s1)" action="api.php">
+					<label for="">
+						<small>Enter size of multiplication table:</small>
+					</label>
+					<div class="cluster" style="--justify: baseline">
+						<input type="number" name="size" min="1" max="100" />
+						<button type="submit">👉</button>
+					</div>
+				</form>
+				<hr />
+				<table id="table" border="1"></table>
+			</div>
+			<div class="cluster" style="--justify: end">
+				<a href="https://github.com/aelxxs">
+					<small>👀 click to view source</small>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Practice 1</title>
+		<link rel="stylesheet" href="../styles/reset.css" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="stack" style="--gap: var(--s0)">
+			<a href="../">
+				<small>👈 click to go back</small>
+			</a>
+			<div class="box | stack" style="--space: var(--s0)">
+				<div class="cluster" style="--justify: baseline">
+					<img
+						style="border-radius: 5px"
+						src="https://i.imgur.com/Yd4U0Xf.jpg"
+						width="85"
+						height="85"
+						alt="Profile Picture"
+					/>
+
+					<div>
+						<h1>Alexis Vielma</h1>
+						<p>
+							B.Sc. CS @ <a href="https://ku.edu">KU</a> | IT Director @
+							<a href="https://kjhk.org">KJHK 90.7FM</a>
+						</p>
+						<small
+							>Contact me: <a style="color: #ea5d51" href="mailto:hi@alexis.lol">hi@alexis.lol</a>
+						</small>
+					</div>
+				</div>
+
+				<div id="now-playing" class="stack" style="--gap: var(--s0)"></div>
+
+				<h4>About me:</h4>
+				<p>
+					I am an aspiring Software/Production Engineer who enjoys tackling technical challenges: be it code
+					optimization, service management, or being able to interact with people outside of the industry. I
+					have ever-growing technical skills and an on-going academic background in Computer Science,
+					Linguistics, and Korean.
+				</p>
+				<p>
+					My passion lies in being able to create fun and easy-to-use software that has the potential of
+					reaching and helping many people. With a focus on ease-of-use comes strong emphasis on UI/UX, HCI,
+					and Continuous Development.
+				</p>
+				<p>
+					I'm graduating in May 2025 – Interested in Internship and Fellowship opportunities to further guide
+					me in my career.
+				</p>
+
+				<h4>Experience:</h4>
+				<p>Here's some of my top GitHub Projects</p>
+				<div id="projects"></div>
+
+				<h4>Here's my favorite video:</h4>
+				<iframe
+					style="max-width: 59em"
+					height="315"
+					src="https://www.youtube.com/embed/DUmG1SlR8fs"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
+			<div class="cluster" style="--justify: end">
+				<a href="https://github.com/aelxxs">
+					<small>👀 click to view source</small>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

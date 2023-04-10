@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Practice 3</title>
+		<link rel="stylesheet" href="../styles/reset.css" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="stack">
+			<a href="../">
+				<small>👈 click to go back</small>
+			</a>
+			<div class="box stack">
+				<form id="form" class="stack" style="--space: var(--s1)" onsubmit="verifyPassword(event)">
+					<h2>Practice 3</h2>
+					<p>A very unrealistic approach at password validation.</p>
+					<div class="stack" style="--space: var(--s0)">
+						<label for="passwordOne">
+							<small>Enter Password:</small>
+						</label>
+						<input name="passwordOne" type="text" minlength="8" />
+					</div>
+					<div class="stack" style="--space: var(--s0)">
+						<label for="passwordTwo">
+							<small>Confirm Password:</small>
+						</label>
+						<input name="passwordTwo" type="text" minlength="8" />
+					</div>
+
+					<div class="cluster" style="--justify: end">
+						<button type="submit">👉</button>
+					</div>
+				</form>
+			</div>
+			<div class="cluster" style="--justify: end">
+				<a href="https://github.com/aelxxs">
+					<small>👀 click to view source</small>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

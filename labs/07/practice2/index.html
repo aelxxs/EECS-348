@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Practice 2</title>
+		<link rel="stylesheet" href="../styles/reset.css" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="stack">
+			<a href="../">
+				<small>👈 click to go back</small>
+			</a>
+			<div class="box stack">
+				<form id="form" class="stack" style="--space: var(--s1)" onsubmit="handle(event)">
+					<h2>Practice 2</h2>
+					<p>DOM manipulation</p>
+
+					<div id="box" class="box no-shadow">
+						<p>A very cool paragraph</p>
+					</div>
+
+					<label for="borderWidth">
+						<small>Border width Pixels (0-100):</small>
+					</label>
+
+					<input name="borderWidth" type="number" min="0" max="100" />
+
+					<label for="borderColor">
+						<small>Border color RGB (0-255):</small>
+					</label>
+
+					<div class="cluster" style="--space: 0.25rem">
+						<small><strong>R:</strong></small>
+						<input size="5" name="borderColorR" type="number" min="0" max="255" />
+						<small><strong>G:</strong></small>
+						<input size="5" name="borderColorG" type="number" min="0" max="255" />
+						<small><strong>B:</strong></small>
+						<input size="5" name="borderColorB" type="number" min="0" max="255" />
+					</div>
+
+					<label for="backgroundColor">
+						<small>Background color RGB (0-255):</small>
+					</label>
+
+					<div class="cluster" style="--space: 0.25rem">
+						<small><strong>R:</strong></small>
+						<input size="5" name="backgroundColorR" type="number" min="0" max="255" />
+						<small><strong>G:</strong></small>
+						<input size="5" name="backgroundColorG" type="number" min="0" max="255" />
+						<small><strong>B:</strong></small>
+						<input size="5" name="backgroundColorB" type="number" min="0" max="255" />
+					</div>
+
+					<div class="cluster" style="--justify: end">
+						<button type="submit">🖌️</button>
+					</div>
+				</form>
+			</div>
+			<div class="cluster" style="--justify: end">
+				<a href="https://github.com/aelxxs">
+					<small>👀 click to view source</small>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
